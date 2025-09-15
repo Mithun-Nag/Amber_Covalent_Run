@@ -1,0 +1,120 @@
+
+ REMIND COMPUTATIONAL CONDITIONS FOR THE 'P9702' JOB:
+ Geometry optimization done using the 'ON' keyword
+ MEP computation done
+ Frequency computation not done!
+ QMSOFT       = GAMESS
+ CHR_TYP      = RESP-A1
+ Theory level = HF/6-31G(d)//HF/6-31G(d)
+ (Single point MEP computation//Geometry optimization)
+ Surface algo = Connolly surface
+ MEP points   = Default
+
+ The listed dihedral values below can be used to validate the FF generated
+ by PyRED:
+ These values can be compared to values observed during MD simulation
+ Data are sorted by dihedral values and by atom types (2 central atoms)
+
+     Mol_m1-c1-qmra.pdb  &  Mol-sm_m1-c1.mol2
+             Atom_names       Atom_types         Distances(Å)    Dih.angles(°) 
+     1   C04  C05  C06  N07   CA-CA-CA-N2     1.384 1.381 1.454   -179.98 
+     2   H14  C14  C13  C18   HA-CA-CD-CA     1.389 1.392 1.076   -179.95 
+     3   H17  C17  N16  C15   H4-CA-NC-CA     1.321 1.319 1.076   -179.93 
+     4   C02  C01  C06  N07   CA-CA-CA-N2     1.381 1.379 1.454   -179.89 
+     5   SG   C03  C04  C05   S -CA-CA-CA     1.776 1.404 1.384   -179.78 
+     6   H18  C18  C13  C14   HA-CA-CD-CA     1.392 1.389 1.068   -179.78 
+     7   C18  C13  N12  H12   CA-CD-N -H      0.995 1.401 1.389   -179.71 
+     8   H01  C01  C02  C03   HA-CA-CA-CA     1.071 1.381 1.392   -179.67 
+     9   C17  C18  C13  N12   CA-CA-CD-N      1.401 1.389 1.385   -179.37 
+    10   C01  C06  C05  H05   CA-CA-CA-HA     1.379 1.381 1.072   -178.96 
+    11   H02  C02  C03  C04   HA-CA-CA-CA     1.072 1.392 1.404   -178.84 
+    12   C05  C06  N07  O09   CA-CA-N2-O      1.381 1.454 1.193   -178.62 
+    13   C01  C06  N07  O08   CA-CA-N2-O      1.379 1.454 1.194   -178.48 
+    14   HB1  CB   CA   N     H1-CT-CX-NT     1.444 1.537 1.080   -178.10 
+    15   C10  C04  C05  C06   C -CA-CA-CA     1.507 1.384 1.381   -177.03 
+    16   C04  C03  SG   CB    CA-CA-S -CT     1.828 1.776 1.404   -147.86 
+    17   C2   C    CA   HA    CT-C -CX-H1     1.085 1.543 1.511   -130.55 
+    18   O    C    C2   H23   O -C -CT-HC     1.193 1.511 1.084   -121.51 
+    19   HB2  CB   SG   C03   H1-CT-S -CA     1.080 1.828 1.776    -86.51 
+    20   C    CA   N    C1    C -CX-NT-CT     1.449 1.444 1.543    -80.43 
+    21   CB   CA   N    H2    CT-CX-NT-H      0.999 1.444 1.537    -77.27 
+    22   H13  C1   N    H2    H1-CT-NT-H      1.091 1.449 0.999    -73.15 
+    23   SG   CB   CA   C     S -CT-CX-C      1.543 1.537 1.828    -70.37 
+    24   H1   C1   N    CA    H1-CT-NT-CX     1.084 1.449 1.444    -62.77 
+    25   HB1  CB   CA   HA    H1-CT-CX-H1     1.085 1.537 1.080    -62.26 
+    26   O    C    CA   CB    O -C -CX-CT     1.537 1.543 1.193    -61.87 
+    27   CA   C    C2   H22   CX-C -CT-HC     1.543 1.511 1.085    -60.33 
+    28   HB2  CB   CA   N     H1-CT-CX-NT     1.444 1.537 1.080    -58.46 
+    29   N12  C10  C04  C05   N -C -CA-CA     1.384 1.507 1.365    -50.63 
+    30   O11  C10  C04  C03   O -C -CA-CA     1.404 1.507 1.195    -48.43 
+    31   C2   C    CA   N     CT-C -CX-NT     1.444 1.543 1.511    -11.49 
+    32   C04  C10  N12  H12   CA-C -N -H      1.507 1.365 0.995     -8.91 
+    33   C18  C13  N12  C10   CA-CD-N -C      1.365 1.401 1.389     -6.49 
+    34   SG   C03  C04  C10   S -CA-CA-C      1.776 1.404 1.507     -2.83 
+    35   O11  C10  N12  C13   O -C -N -CD     1.195 1.365 1.401     -1.22 
+    36   O    C    C2   H21   O -C -CT-HC     1.193 1.511 1.081     -0.94 
+    37   H14  C14  C13  N12   HA-CA-CD-N      1.401 1.392 1.076     -0.57 
+    38   H01  C01  C02  H02   HA-CA-CA-HA     1.071 1.381 1.072     -0.50 
+    39   H01  C01  C06  N07   HA-CA-CA-N2     1.071 1.379 1.454     -0.45 
+    40   H17  C17  C18  H18   H4-CA-CA-HA     1.076 1.385 1.068     -0.28 
+    41   C06  C01  C02  C03   CA-CA-CA-CA     1.379 1.381 1.392     -0.24 
+    42   C02  C03  C04  C05   CA-CA-CA-CA     1.392 1.404 1.384     -0.20 
+    43   C14  C15  N16  C17   CA-CA-NC-CA     1.379 1.321 1.319     -0.06 
+    44   C17  C18  C13  C14   CA-CA-CD-CA     1.392 1.389 1.385     -0.04 
+    45   C13  C18  C17  N16   CD-CA-CA-NC     1.389 1.385 1.319     -0.03 
+    46   H14  C14  C15  H15   HA-CA-CA-H4     1.076 1.379 1.076     -0.02 
+    47   C03  C04  C05  C06   CA-CA-CA-CA     1.404 1.384 1.381     -0.01 
+    48   C13  C14  C15  N16   CD-CA-CA-NC     1.392 1.379 1.321     -0.01 
+    49   C02  C01  C06  C05   CA-CA-CA-CA     1.381 1.379 1.381      0.02 
+    50   C15  C14  C13  C18   CA-CA-CD-CA     1.389 1.392 1.379      0.06 
+    51   C18  C17  N16  C15   CA-CA-NC-CA     1.321 1.319 1.385      0.08 
+    52   C01  C06  C05  C04   CA-CA-CA-CA     1.379 1.381 1.384      0.10 
+    53   C01  C02  C03  C04   CA-CA-CA-CA     1.381 1.392 1.404      0.33 
+    54   SG   C03  C02  H02   S -CA-CA-HA     1.776 1.392 1.072      0.74 
+    55   H18  C18  C13  N12   HA-CA-CD-N      1.401 1.389 1.068      0.89 
+    56   H05  C05  C06  N07   HA-CA-CA-N2     1.072 1.381 1.454      0.95 
+    57   C14  C13  N12  H12   CA-CD-N -H      0.995 1.401 1.392      0.96 
+    58   C01  C06  N07  O09   CA-CA-N2-O      1.379 1.454 1.193      1.29 
+    59   C05  C06  N07  O08   CA-CA-N2-O      1.381 1.454 1.194      1.61 
+    60   C10  C04  C05  H05   C -CA-CA-HA     1.507 1.384 1.072      2.02 
+    61   C02  C03  SG   CB    CA-CA-S -CT     1.828 1.776 1.392     32.57 
+    62   HB1  CB   SG   C03   H1-CT-S -CA     1.080 1.828 1.776     34.24 
+    63   HA   CA   N    C1    H1-CX-NT-CT     1.449 1.444 1.085     37.20 
+    64   H11  C1   N    H2    H1-CT-NT-H      1.083 1.449 0.999     48.15 
+    65   HB1  CB   CA   C     H1-CT-CX-C      1.543 1.537 1.080     49.59 
+    66   O    C    CA   HA    O -C -CX-H1     1.085 1.543 1.193     50.29 
+    67   C    CA   N    H2    C -CX-NT-H      0.999 1.444 1.543     50.61 
+    68   HB2  CB   CA   HA    H1-CT-CX-H1     1.085 1.537 1.080     57.38 
+    69   H13  C1   N    CA    H1-CT-NT-CX     1.091 1.449 1.444     58.48 
+    70   CA   C    C2   H23   CX-C -CT-HC     1.543 1.511 1.084     59.35 
+    71   SG   CB   CA   N     S -CT-CX-NT     1.444 1.537 1.828     61.95 
+    72   C2   C    CA   CB    CT-C -CX-CT     1.537 1.543 1.511    117.30 
+    73   O    C    C2   H22   O -C -CT-HC     1.193 1.511 1.085    118.81 
+    74   O11  C10  C04  C05   O -C -CA-CA     1.384 1.507 1.195    128.55 
+    75   N12  C10  C04  C03   N -C -CA-CA     1.404 1.507 1.365    132.38 
+    76   CB   CA   N    C1    CT-CX-NT-CT     1.449 1.444 1.537    151.68 
+    77   CA   CB   SG   C03   CX-CT-S -CA     1.537 1.828 1.776    154.01 
+    78   H1   C1   N    H2    H1-CT-NT-H      1.084 1.449 0.999    165.60 
+    79   HA   CA   N    H2    H1-CX-NT-H      0.999 1.444 1.085    168.25 
+    80   HB2  CB   CA   C     H1-CT-CX-C      1.543 1.537 1.080    169.22 
+    81   O    C    CA   N     O -C -CX-NT     1.444 1.543 1.193    169.34 
+    82   O11  C10  N12  H12   O -C -N -H      1.195 1.365 0.995    171.93 
+    83   C14  C13  N12  C10   CA-CD-N -C      1.365 1.401 1.392    174.18 
+    84   C02  C03  C04  C10   CA-CA-CA-C      1.392 1.404 1.507    176.75 
+    85   SG   CB   CA   HA    S -CT-CX-H1     1.085 1.537 1.828    177.79 
+    86   C04  C10  N12  C13   CA-C -N -CD     1.507 1.365 1.401    177.94 
+    87   C06  C01  C02  H02   CA-CA-CA-HA     1.379 1.381 1.072    178.94 
+    88   C03  C04  C05  H05   CA-CA-CA-HA     1.404 1.384 1.072    179.04 
+    89   C15  C14  C13  N12   CA-CA-CD-N      1.401 1.392 1.379    179.43 
+    90   H01  C01  C06  C05   HA-CA-CA-CA     1.071 1.379 1.381    179.46 
+    91   N16  C17  C18  H18   NC-CA-CA-HA     1.319 1.385 1.068    179.71 
+    92   H11  C1   N    CA    H1-CT-NT-CX     1.083 1.449 1.444    179.78 
+    93   SG   C03  C02  C01   S -CA-CA-CA     1.776 1.392 1.381    179.91 
+    94   CA   C    C2   H21   CX-C -CT-HC     1.543 1.511 1.081    179.92 
+    95   H15  C15  N16  C17   H4-CA-NC-CA     1.076 1.321 1.319    179.96 
+    96   C13  C14  C15  H15   CD-CA-CA-H4     1.392 1.379 1.076    179.97 
+    97   C13  C18  C17  H17   CD-CA-CA-H4     1.389 1.385 1.076    179.98 
+    98   H14  C14  C15  N16   HA-CA-CA-NC     1.076 1.379 1.321    180.00 
+ Compute 98 dihedral angles between 44 atoms based on 74 angles and 45 bonds
+
+

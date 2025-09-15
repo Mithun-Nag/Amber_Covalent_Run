@@ -1,0 +1,96 @@
+Remark line goes here
+MASS
+N  14.010        0.530
+H  1.008         0.161
+CX 12.010        0.360
+H1 1.008         0.135
+CT 12.010        0.878
+S  32.060        2.900
+C  12.010        0.616
+O  16.000        0.434
+
+BOND
+H -N   434.00   1.010
+CX-N   337.00   1.449
+CX-H1  340.00   1.090
+CT-CX  310.00   1.526
+C -CX  317.00   1.522
+CT-H1  340.00   1.090
+CT-S   227.00   1.810
+C -O   570.00   1.229
+
+ANGLE
+H1-CX-N    50.000     109.500
+CT-CX-N    80.000     109.700
+C -CX-N    63.000     110.100
+CX-N -H    50.000     118.040
+CX-CT-H1   50.000     109.500
+CX-CT-S    50.000     114.700
+CX-C -O    80.000     120.400
+CT-CX-H1   50.000     109.500
+C -CX-H1   50.000     109.500
+C -CX-CT   63.000     111.100
+H1-CT-H1   35.000     109.500
+H1-CT-S    50.000     109.500
+
+DIHE
+H1-CT-CX-N    9    1.400         0.000           3.000
+S -CT-CX-N    9    1.400         0.000           3.000
+O -C -CX-N    6    0.000         0.000           2.000
+H1-CX-N -H    6    0.000         0.000           2.000
+CT-CX-N -H    6    0.000         0.000           2.000
+C -CX-N -H    6    0.000         0.000           2.000
+CX-CT-S -ca   3    1.000         0.000           3.000
+H1-CT-CX-H1   9    1.400         0.000           3.000
+S -CT-CX-H1   9    1.400         0.000           3.000
+O -C -CX-H1   1    0.800         0.000          -1.000
+O -C -CX-H1   1    0.000         0.000          -2.000
+O -C -CX-H1   1    0.080       180.000           3.000
+O -C -CX-CT   6    0.000         0.000           2.000
+CT-S -ca-ca   0    0.000         0.000           0.000
+H1-CT-S -ca   3    1.000         0.000           3.000
+S -ca-ca-ca   0    0.000         0.000           0.000
+ca-ca-ca-ca   0    0.000         0.000           0.000
+ca-ca-ca-ha   0    0.000         0.000           0.000
+ca-ca-no-o    0    0.000         0.000           0.000
+c -ca-ca-ca   0    0.000         0.000           0.000
+o -c -ca-ca   0    0.000         0.000           0.000
+n -c -ca-ca   0    0.000         0.000           0.000
+ca-ca-n -c    0    0.000         0.000           0.000
+ca-ca-ca-n    0    0.000         0.000           0.000
+ha-ca-ca-n    0    0.000         0.000           0.000
+ca-ca-n -hn   0    0.000         0.000           0.000
+ca-ca-nb-ca   0    0.000         0.000           0.000
+h4-ca-nb-ca   0    0.000         0.000           0.000
+ca-ca-ca-nb   0    0.000         0.000           0.000
+ha-ca-ca-nb   0    0.000         0.000           0.000
+ca-ca-ca-h4   0    0.000         0.000           0.000
+h4-ca-ca-ha   0    0.000         0.000           0.000
+ca-ca-ca-no   0    0.000         0.000           0.000
+ha-ca-ca-no   0    0.000         0.000           0.000
+H1-CT-CX-C    9    1.400         0.000           3.000
+S -CT-CX-C    9    1.400         0.000           3.000
+
+IMPROPER
+S -ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using the default value
+ca-ca-ca-no         1.1          180.0         2.0          Using the default value
+c -ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-n -c -o          1.1          180.0         2.0          Using the default value
+c -ca-n -hn         1.1          180.0         2.0          Using the default value
+ca-ca-ca-n          1.1          180.0         2.0          Using the default value
+ca-h4-ca-nb         1.1          180.0         2.0          Using the default value
+ca-o -no-o          1.1          180.0         2.0          Using the default value
+
+NONBON
+  N           1.8240  0.1700
+  H           0.6000  0.0157
+  CX          1.9080  0.1094
+  H1          1.3870  0.0157
+  CT          1.9080  0.1094
+  S           2.0000  0.2500
+  C           1.9080  0.0860
+  O           1.6612  0.2100
+
+
+
